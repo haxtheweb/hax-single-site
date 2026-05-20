@@ -1,6 +1,6 @@
 {
   "id": "96b450bb-86de-49a3-b06f-54d9778444cf",
-  "title": "hax-single-site",
+  "title": "HAX Single Site",
   "author": "",
   "description": "own course",
   "license": "by-sa",
@@ -18,12 +18,12 @@
         "gaID": null
       },
       "created": 1698074988,
-      "updated": 1779310967,
+      "updated": 1779310979,
       "git": {
         "vendor": "github",
         "branch": "gh-pages"
       },
-      "version": "9.0.5",
+      "version": "26.0.0",
       "static": {},
       "tags": "website, haxtheweb, hax"
     },
@@ -64,7 +64,8 @@
       "version": "7.0.15",
       "structure": "course",
       "type": "own"
-    }
+    },
+    "platform": {}
   },
   "items": [
     {
