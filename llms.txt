@@ -1,4 +1,4 @@
-# hax-single-site
+# HAX Single Site
 
 > own course
 
