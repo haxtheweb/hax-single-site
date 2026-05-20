@@ -14,6 +14,7 @@ else {
 <!DOCTYPE html>
 <html lang="<?php print $HAXSiteConfig->getLanguage(); ?>">
 <head>
+  <?php print $HAXSiteConfig->getBaseTag(); ?>
   <script type="importmap">
     {
       "scopes": {
@@ -23,7 +24,6 @@ else {
       }
     }
   </script>
-  <?php print $HAXSiteConfig->getBaseTag(); ?>
   <?php print $HAXSiteConfig->getSiteMetadata($HAXSiteConfig->page); ?>
   <?php print $HAXSiteConfig->getServiceWorkerScript(null, FALSE, $HAXSiteConfig->getServiceWorkerStatus()); ?>
   <style>
@@ -150,11 +150,23 @@ else {
     globalThis.addEventListener('haxcms-ready', function(e) {
       // give the web components a second to build
       setTimeout(function() {
-        document.querySelector('#loading').classList.add('loaded');
+        var loadingEl = document.querySelector('#loading');
+        if (loadingEl) {
+          loadingEl.classList.add('loaded');
+        }
         setTimeout(function() {
-          document.querySelector('#loading').parentNode.removeChild(document.querySelector('#loading'));
-          document.querySelector('#loadingstyles').parentNode.removeChild(document.querySelector('#loadingstyles'));
-          document.querySelector('#loadingscript').parentNode.removeChild(document.querySelector('#loadingscript'));
+          var loadingEl = document.querySelector('#loading');
+          if (loadingEl && loadingEl.parentNode) {
+            loadingEl.parentNode.removeChild(loadingEl);
+          }
+          var loadingStylesEl = document.querySelector('#loadingstyles');
+          if (loadingStylesEl && loadingStylesEl.parentNode) {
+            loadingStylesEl.parentNode.removeChild(loadingStylesEl);
+          }
+          var loadingScriptEl = document.querySelector('#loadingscript');
+          if (loadingScriptEl && loadingScriptEl.parentNode) {
+            loadingScriptEl.parentNode.removeChild(loadingScriptEl);
+          }
         }, 100);
       }, 300);
     });
