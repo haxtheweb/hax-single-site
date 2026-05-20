@@ -18,7 +18,7 @@
         "gaID": null
       },
       "created": 1698074988,
-      "updated": 1779310930,
+      "updated": 1779310942,
       "git": {
         "vendor": "github",
         "branch": "gh-pages"
@@ -44,7 +44,7 @@
         "imageAlt": "",
         "imageLink": "",
         "cssVariable": "--simple-colors-default-theme-deep-purple-7",
-        "palette": "2",
+        "palette": "8",
         "icon": "hax:wizard-hat"
       },
       "regions": {
