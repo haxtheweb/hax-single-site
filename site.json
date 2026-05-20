@@ -2,30 +2,38 @@
   "id": "96b450bb-86de-49a3-b06f-54d9778444cf",
   "title": "HAX Single Site",
   "author": "",
-  "description": "own course",
+  "description": "",
   "license": "by-sa",
   "metadata": {
-    "author": {},
+    "author": {
+      "image": "",
+      "name": "",
+      "email": "",
+      "socialLink": ""
+    },
     "site": {
       "name": "haxtheweb",
       "logo": "assets/banner.jpg",
       "settings": {
         "lang": "en-US",
         "publishPagesOn": true,
-        "pathauto": false,
+        "pathauto": true,
         "sw": false,
         "forceUpgrade": true,
-        "gaID": null
+        "gaID": "",
+        "private": false,
+        "canonical": true
       },
       "created": 1698074988,
-      "updated": 1779310979,
+      "updated": 1779311022,
       "git": {
         "vendor": "github",
         "branch": "gh-pages"
       },
       "version": "26.0.0",
       "static": {},
-      "tags": "website, haxtheweb, hax"
+      "tags": "website, haxtheweb, hax",
+      "domain": ""
     },
     "theme": {
       "element": "clean-portfolio-theme",
