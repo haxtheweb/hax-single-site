@@ -22,5 +22,5 @@ Get involved with HAX
 We hope you enjoy working with HAX as much as the team has enjoyed building it! If you want to join our community, hit "Merlin" and look for the Discord link among other ways to get involved!
 
 *   [Read our HAX Teaching excellence resources](https://haxtheweb.org/)
-*   [Join the HAX community](https://bit.ly/hax-discord)
+*   [Join the HAX community](https://discord.gg/EKYJAjqGhf)
 *   [Post an issue in our issue queue](https://github.com/haxtheweb/issues/issues/new?assignees=&labels=POP&template=issue-report.md&title=User%20report%20from%20HAX%20welcome%20page)
